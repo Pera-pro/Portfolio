@@ -173,7 +173,6 @@
         <p class="contacto-texto lead">Si quieres contactarme, por favor completa el siguiente formulario y me pondré en contacto contigo lo antes posible.</p>
 
         <form action="https://submit-form.com/3Qz0Xeh44" method="POST" class="formulario-contacto">
-            <input type="hidden" name="_redirect" value="https://pera-pro.github.io/Portfolio/"/>
             <fieldset>
                 <legend>Información de Contacto</legend>
                 <div class="mb-3">
@@ -188,7 +187,7 @@
             </fieldset>
             <div class="mb-3">
                 <label for="telefono" class="form-label">Teléfono</label>
-                <input type="number" name="phone" class="form-control" id="telefono" placeholder="Tu número de teléfono" minlength="10" maxlength="10" required>
+                <input type="number" pattern="[0-9]*" inputmode="numeric" name="phone" class="form-control" id="telefono" placeholder="Tu número de teléfono" minlength="10" maxlength="10" required>
             </div>
 
             <fieldset>
