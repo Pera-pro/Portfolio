@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Craft</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/favicon.ico">
+</head>
+
+<body>
+    <header class="headerlogoynav">
+        <img src="img/code.png" alt="Code craft logo" class="logo">
+        <nav class="navbar navbar-expand-lg custom-navbar">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="d-flex align-items-center mx-auto">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#perfil">PERFIL</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#portfolio">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#acerca-de-mi">ACERCA DE MI</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#contacto">CONTACTO</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            FAQS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://pledu.plataforma5.la/curso-introductorio-frontend-st-brendans/u2---html*-hypertext-markup-language/favicon-4c0380e9" target="_blank">¿Cómo aprendo a programar?</a></li>
+                            <li><a class="dropdown-item" href="https://getbootstrap.com/docs/5.2/getting-started/download/" target="_blank">¿Qué herramientas debería usar?</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="https://www.argentina.gob.ar/andis/lineas-de-acompanamiento-apoyo-y-orientacion-en-salud-mental-en-contextos-de-cuarentena" target="_blank">CONTACTAR CON EL EQUIPO DE APOYO</a></li>
+                        </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <div class="perfil-contenedor" id="perfil">
+        <div class="card perfil-tarjeta">
+            <div class="row g-0">
+                
+                <div class="col-12 col-md-5 col-lg-4 d-flex justify-content-center align-items-center avatar-contenedor">
+                    <img src="img/perfil.png" alt="Programador perfil" class="avatar-imagen">
+                </div>
+                
+                <div class="col-12 col-md-7 col-lg-8 text-center text-md-start text-lg-start d-flex flex-column justify-content-center perfil-detalles">
+                    <h1 class="perfil-nombre">Benjamín</h1>
+                    <div class="perfil-rol">FULL STACK DEVELOPER</div>
+                    
+                    <p class="perfil-biografia">
+                        Escribo código limpio, eficiente y estructurado para construir soluciones digitales modernas. Me especializo en transformar ideas complejas en experiencias web interactivas y escalables de alto impacto visual.
+                    </p>
+                    
+                    <div class="tecnologia d-flex flex-wrap justify-content-center justify-content-md-start justify-content-lg-start gap-2 mb-4">
+                        <span class="tecnologia-etiqueta">HTML & CSS</span>
+                        <span class="tecnologia-etiqueta">Bootstrap</span>
+                    </div>
+                    
+                    <div class="perfil-redes d-flex justify-content-center justify-content-md-start justify-content-lg-start gap-3">
+                        <a href="https://github.com/Pera-pro" target="_blank" class="social-boton"><i class="bi bi-github"></i></a>
+                        <a href="https://ar.linkedin.com/" target="_blank" class="social-boton"><i class="bi bi-linkedin"></i></a>
+                        <a href="mailto:bfernandezperotti@stbrendans.edu.ar" class="social-boton"><i class="bi bi-envelope"></i></a>
+                        <a href="https://www.instagram.com/plataforma5/?hl=en" target="_blank" class="social-boton"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="proyectos-seccion" id="portfolio">
+        
+        <div class="row mb-5">
+            <div class="col text-center">
+                <h2 class="seccion-titulo">Portfolio</h2>
+                <p class="seccion-subtitulo">Una vidriera de mis trabajos recientes en desarrollo web</p>
+            </div>
+        </div>
+
+        <div class="row g-4 justify-content-around">
+            
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <a href="https://pera-pro.github.io/miPortFolio-Benjamin-Perotti/" target="_blank" class="proyecto-enlace">
+                    <div class="card proyecto-tarjeta">
+                        <div class="proyecto-imagen-contenedor">
+                            <img src="img/unidad1.png" alt="Captura de Proyecto 1" class="proyecto-imagen">
+                        </div>
+                        <div class="proyecto-cuerpo">
+                            <h5 class="proyecto-titulo">Unidad 1</h5>
+                            <p class="proyecto-descripcion">Primer proyecto del curso en el cual entrenamos el interfaz basico HTML y el upload por GitHub</p>
+                            <div class="proyecto-tecnologias">
+                                <span class="tec-etiqueta">HTML</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <a href="https://pera-pro.github.io/Desafio-Unidad-4/" target="_blank" class="proyecto-enlace">
+                    <div class="card proyecto-tarjeta">
+                        <div class="proyecto-imagen-contenedor">
+                            <img src="img/unidad4.png" alt="Captura de Proyecto 2" class="proyecto-imagen">
+                        </div>
+                        <div class="proyecto-cuerpo">
+                            <h5 class="proyecto-titulo">Desafio Unidad 4</h5>
+                            <p class="proyecto-descripcion">Diseño de interfaz para una pagina que contiene diferentes formularios con comportamientos interactivos.</p>
+                            <div class="proyecto-tecnologias">
+                                <span class="tec-etiqueta">HTML</span>
+                                <span class="tec-etiqueta">CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <a href="https://pera-pro.github.io/Desafio-Unidad-5/" target="_blank" class="proyecto-enlace">
+                    <div class="card proyecto-tarjeta">
+                        <div class="proyecto-imagen-contenedor">
+                            <img src="img/unidad5.png" alt="Captura de Proyecto 3" class="proyecto-imagen">
+                        </div>
+                        <div class="proyecto-cuerpo">
+                            <h5 class="proyecto-titulo">Desafio Unidad 5</h5>
+                            <p class="proyecto-descripcion">Diseño y armado de una pagina web para la compra de un celular, aplicando los conceptos de CSS aprendidos en la Unidad 3.</p>
+                            <div class="proyecto-tecnologias">
+                                <span class="tec-etiqueta">HTML</span>
+                                <span class="tec-etiqueta">CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="mi-seccion" id="acerca-de-mi">
+        <h2 class="mi-titulo">Acerca de Mí</h2>
+        <hr class="mi-divisor">
+        <p class="mi-texto lead">
+            ¡Hola! Soy un desarrollador front-end apasionado por crear interfaces web modernas, limpias y 100% responsive. Me encanta cuidar los detalles de diseño, estructura y usabilidad, asegurándome de que cada píxel y cada línea de código tengan un propósito y se vean increíbles en cualquier pantalla. Me considero una persona curiosa, con buen ojo estético y con una gran facilidad para aprender y adaptarme rápido a nuevos desafíos.
+            <br><br>
+            <strong>DATO CURIOSO:</strong> Siempre programo acompañado de mi perro salchicha Jaime.
+        </p>
+    </div>
+
+    <div class="contacto-seccion" id="contacto">
+        <h2 class="contacto-titulo">Contacto</h2>
+        <hr class="contacto-divisor">
+        <p class="contacto-texto lead">Si quieres contactarme, por favor completa el siguiente formulario y me pondré en contacto contigo lo antes posible.</p>
+
+        <form action="https://submit-form.com/3Qz0Xeh44" method="POST" class="formulario-contacto">
+            <fieldset>
+                <legend>Información de Contacto</legend>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" name="name" placeholder="Tu nombre y apellido" class="form-control" id="nombre" required>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" name="email" placeholder="name@example.com" class="form-control" id="email" required>
+                </div>
+            </fieldset>
+            <div class="mb-3">
+                <label for="telefono" class="form-label">Teléfono</label>
+                <input type="tel" name="phone" class="form-control" id="telefono" placeholder="Tu número de teléfono" minlength="10" maxlength="10" required>
+            </div>
+
+            <fieldset>
+                <legend>Mensaje</legend>
+                
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Contanos sobre tu proyecto</label>
+                    <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" maxlength="200" required></textarea>
+                </div>
+            </fieldset>
+            
+            <button type="submit" class="btn btn-propio w-100 mt-3">Enviar Mensaje</button>
+        </form>
+    </div>
+
+    <footer class="footer-completo">
+        <div class="footer-principal">
+            <div class="container">
+                <div class="row align-items-center text-center">
+                    <div class="col-12">
+                        <div class="texto-footer">
+                            <h5 class="footer-subtitulo text-uppercase">Dirección</h5>
+                            <p class="footer-texto mb-0">
+                                Superi 2057, Belgrano R<br>
+                                C1430FDE CABA, Argentina
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-center">
+            <div class="container">
+                <p class="copyright-linea mb-0">Copyright &copy; Tu sitio web 2026</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+
+</html>
