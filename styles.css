@@ -9,7 +9,8 @@ body {
     width: 150px;            
     max-width: 80%;          
     height: auto;            
-    margin-bottom: 30px;     
+    margin-bottom: 30px;
+    margin-bottom: -50
 }
 
 
@@ -46,6 +47,7 @@ body {
     padding: 10px 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 60;
 }
 
 @media (min-width: 992px) {
